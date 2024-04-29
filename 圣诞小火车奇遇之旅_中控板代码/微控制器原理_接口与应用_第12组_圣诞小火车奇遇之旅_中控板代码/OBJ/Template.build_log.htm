@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Xinqi Li, Zhejiang University, LIC=EPPLD-8ZKM9-247SS-LK8BJ-C6LJM-HAQ9X
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+C:\study\2023-2024 autumn\Î¢¿ØÖÆÆ÷\ÐÇñ·ÁÐ³µ-ÖÐ¿Ø°å\USER\RTC.uvprojx
+Project File Date:  12/28/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'RTC'
+compiling read.c...
+..\HARDWARE\READ\read.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\Train_Display\train_display.h(4): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\Speed\speed.h(4): warning:  #1295-D: Deprecated declaration speed_Init - give arg types
+  void speed_Init();
+..\HARDWARE\Speed\speed.h(5): warning:  #1295-D: Deprecated declaration cal_speed_pre - give arg types
+  void cal_speed_pre();
+..\HARDWARE\Speed\speed.h(6): warning:  #1295-D: Deprecated declaration Get_now_speed - give arg types
+  float Get_now_speed();
+..\HARDWARE\Speed\speed.h(7): warning:  #1295-D: Deprecated declaration speed_display - give arg types
+  void speed_display();
+..\HARDWARE\Speed\speed.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\READ\read.c(135): warning:  #223-D: function "Get_now_time_counter" declared implicitly
+  	LCD_ShowNum(118, 206, arriving_time - Get_now_time_counter(1) / 1000, 3, 16);
+..\HARDWARE\READ\read.c(217): warning:  #223-D: function "Reset_time_counter" declared implicitly
+  		Reset_time_counter(1);
+..\HARDWARE\READ\read.c(251): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\READ\read.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=44726 RO-data=192174 RW-data=448 ZI-data=2200  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_RTC
+  C:\Users\16421\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

@@ -1,0 +1,43 @@
+#ifndef _READ_H
+#define _READ_H
+#include "sys.h"
+// ���⴫����
+#define SIGNAL_1 GPIOC, GPIO_PIN_3
+#define SIGNAL_2 GPIOC, GPIO_PIN_1
+#define SIGNAL_3 GPIOA, GPIO_PIN_5
+#define SIGNAL_4 GPIOA, GPIO_PIN_6
+#define SIGNAL_5 GPIOC, GPIO_PIN_2
+#define ST1 1
+#define ST2 2
+#define ST3 3
+#define ST4 4
+#define ST5 5
+
+// �źŵ�1
+#define TFLIGHT_GREEN_1 GPIOF, GPIO_PIN_6
+#define TFLIGHT_YELLOW_1 GPIOC, GPIO_PIN_13
+#define TFLIGHT_RED_1 GPIOE, GPIO_PIN_0
+
+// �źŵ�2
+#define TFLIGHT_GREEN_2 GPIOC, GPIO_PIN_4
+#define TFLIGHT_YELLOW_2 GPIOF, GPIO_PIN_12
+#define TFLIGHT_RED_2 GPIOF, GPIO_PIN_11
+
+// �źŵ�3
+#define TFLIGHT_GREEN_3 GPIOD, GPIO_PIN_6
+#define TFLIGHT_YELLOW_3 GPIOE, GPIO_PIN_1
+#define TFLIGHT_RED_3 GPIOG, GPIO_PIN_15
+
+// �źŵ�4
+#define TFLIGHT_GREEN_4 GPIOA, GPIO_PIN_7
+#define TFLIGHT_YELLOW_4 GPIOC, GPIO_PIN_0
+#define TFLIGHT_RED_4 GPIOF, GPIO_PIN_13
+
+// �źŵ�5
+#define TFLIGHT_GREEN_5 GPIOF, GPIO_PIN_8
+#define TFLIGHT_YELLOW_5 GPIOF, GPIO_PIN_7
+#define TFLIGHT_RED_5 GPIOF, GPIO_PIN_9
+
+extern uint16_t arriving_time;
+void read_signal(void);
+#endif
